@@ -6,8 +6,5 @@ public class Player {
         int x;
         int y;
     }
-    private float retCords{
-         ret =[Player.x,Player.y]
-        return ret;
-    }
+
 }

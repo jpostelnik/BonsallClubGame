@@ -1,5 +1,6 @@
 public enum Projectiles {
-    laser,
+    laser, rocket, homing, boom, burst,
+
     Projectiles() {
 
     }

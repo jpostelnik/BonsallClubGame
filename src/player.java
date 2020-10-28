@@ -1,10 +1,11 @@
 package player;
 
-public class Player {
-    public Player(int retCords) {
-        this.retCords = retCords;
-        int x;
-        int y;
+public class Tank {
+    public Tank() {
+        int score
     }
-
+    public int addToScore(amount){
+        score = score+ amount;
+        return score;
+    }
 }

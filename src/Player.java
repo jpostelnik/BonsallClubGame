@@ -47,7 +47,7 @@ public class Player {
         return "Player{" +
                 "name='" + name + '\'' +
                 ", score=" + score +
-                ", tank=" + tank +
+                ", Tank=" + tank +
                 '}';
     }
 }

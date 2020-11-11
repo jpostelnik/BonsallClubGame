@@ -9,6 +9,9 @@ public class Main extends Game {
 
     @Override
     public void start(Stage primaryStage) {
+
+
+
         primaryStage.setTitle("hi");
     }
 }

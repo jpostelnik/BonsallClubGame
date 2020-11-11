@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Tank
+public class Tank extends Entity
 {
     private int moveX;
     private int moveY;
@@ -12,14 +12,13 @@ public class Tank
     private int shootsRemaning =5;
 
     private String[] powerUp;
-    public Tank(String nameOfThePlayer, int x, int y)
-    {
-        String[] powerUp = {"healerBoost", "damageBoost", "Freeze"};
-        moveX = x;
-        moveY = y;
-        health = 100;
-        damage = 20;
-        frozen = false;
+
+    public Tank(int entityID, String spriteID, int health, int xPosition, int yPositon, int damage, boolean freeze) {
+        super(entityID, spriteID, health, xPosition, yPositon);
+        this.damage = damage;
+        this.frozen = freeze;
+        this.powerUp = new String[3];
+        powerUp[0] = "healerBoost"; powerUp[1] = "healerBoost"; powerUp[2] = "Freeze";
     }
 
     private void resetShots()

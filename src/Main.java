@@ -5,6 +5,7 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
+        start()
     }
 
     @Override
@@ -12,3 +13,4 @@ public class Main extends Application {
         primaryStage.setTitle("hi");
     }
 }
+ 

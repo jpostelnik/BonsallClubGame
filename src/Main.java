@@ -12,11 +12,13 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Group root = new Group();
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Sample Text");
         Scene scene = new Scene(group, 300, 275)
-
-        primayStage.set(Color.WHITE);
+        primaryStage.setTitle("Sample Text");
         
+
+        Scene.set(Color.WHITE);
+        
+        primayStage.setScene(scene)
         primaryStage.show();
     }
 

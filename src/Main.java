@@ -13,7 +13,7 @@ public class Main extends Application {
         Group root = new Group();
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         Scene scene = new Scene(group, 300, 275)
-        primaryStage.setTitle("Sample Text");
+        primaryStage.setTitle("Bonsall Tank");
         
 
         Scene.set(Color.WHITE);

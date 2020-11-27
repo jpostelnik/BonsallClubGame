@@ -25,9 +25,8 @@ public class Main extends Application {
         
     }
     public void menu(Stage primaryStage) throws Exception{
-        Group root = new Group();
+        Group root = new Group();``qq
         Scene scene = new Scene(group, 300, 275);
-        Line line1 = new Line();
         
     }
 

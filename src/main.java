@@ -20,11 +20,14 @@ public class Main extends Application {
 
         Scene.set(Color.WHITE);
         
-        primayStage.setScene(scene)
+        primayStage.setScene(scene);
         primaryStage.show();
         
     }
     public void menu(Stage primaryStage) throws Exception{
+        Group root = new Group();
+        Scene scene = new Scene(group, 300, 275);
+        Line line1 = new Line();
         
     }
 

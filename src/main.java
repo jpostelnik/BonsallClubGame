@@ -1,5 +1,7 @@
-package Graphics;
+package main;
 
+import java.Entity;
+import java.Player;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -12,7 +14,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Group root = new Group();
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        Scene scene = new Scene(group, 300, 275)
+        Scene scene = new Scene(group, 300, 275);
         primaryStage.setTitle("Bonsall Tank");
         
 
@@ -20,10 +22,14 @@ public class Main extends Application {
         
         primayStage.setScene(scene)
         primaryStage.show();
+        
     }
-
+    public void menu(Stage primaryStage) throws Exception{
+        
+    }
 
     public static void main(String[] args) {
         launch(args);
+        
     }
 }

@@ -9,7 +9,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-
     @Override
     public void start(Stage primaryStage) throws Exception{
         Group root = new Group();
@@ -25,7 +24,7 @@ public class Main extends Application {
         
     }
     public void menu(Stage primaryStage) throws Exception{
-        Group root = new Group();``qq
+        Group root = new Group();
         Scene scene = new Scene(group, 300, 275);
         
     }
